@@ -16,6 +16,7 @@ a {
 p {
     font-size: 16px;
 }
+
 /* "HORESEON" h1 style */
 .header {
     padding: 20px;
@@ -32,6 +33,7 @@ p {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* nav text style */
 .header nav {
     padding-top: 15px;
@@ -40,15 +42,18 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 /* removes bullet points in nav */
 .header nav ul {
     list-style-type: none;
 }
-/* displays the nav inline */
+
+/* displays the nav as inline */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* main front image */
 .hero {
     height: 800px;
@@ -58,7 +63,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* for images in main to be floated to either side of the section */
+
+/* for images in main to be floated to either side of the "main" section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,8 +75,7 @@ p {
     margin-left: 25px;
 }
 
-/* consolidated main style */
-
+/* main style */
 .content {
     width: 75%;
     display: inline-block;
@@ -91,10 +96,12 @@ p {
     font-size: 36px;
 }
 
+/* sets size of images in "main" */
 .content img{
     max-height: 200px;
 }
 
+/* aside text style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,6 +129,7 @@ p {
     max-width: 150px;
 }
 
+/* footer style */
 .footer {
     padding: 30px;
     clear: both;
