@@ -1,3 +1,4 @@
+/* site wide style */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,7 +18,7 @@ p {
     font-size: 16px;
 }
 
-/* "HORESEON" h1 style */
+/* logo h1 style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +55,7 @@ p {
     margin-left: 25px;
 }
 
-/* main front image */
+/* hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,7 +65,7 @@ p {
     background-position: center;
 }
 
-/* for images in main to be floated to either side of the "main" section */
+/* for images in main content to be floated to either side */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -96,7 +97,6 @@ p {
     font-size: 36px;
 }
 
-/* sets size of images in "main" */
 .content img{
     max-height: 200px;
 }
